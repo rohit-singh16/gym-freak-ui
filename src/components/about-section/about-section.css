@@ -1,0 +1,209 @@
+
+body, h1, h2, h3, h4, h5, p, ul, li {
+  margin: 0;
+  padding: 5px;
+}
+
+body {
+  font-family: 'Arial', sans-serif;
+}
+
+
+.section__container {
+  margin: 0px;
+}
+
+
+.header__container {
+  position: relative;
+  overflow: hidden;
+  background: #282c34;
+  color: #61dafb;
+}
+
+.header__content {
+  position: relative;
+  z-index: 1;
+  padding: 15px; 
+}
+
+.header__content h4, .header__content h1 {
+  color: #fff;
+}
+
+.bg__blur {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: inherit;
+  filter: blur(15px);
+  z-index: -1;
+}
+
+.header__image img {
+  width: 100%;
+  max-height: 550px;
+  object-fit: cover;
+  border-radius: 8px;
+  transition: transform 0.3s ease;
+}
+
+
+
+.explore__container {
+  background: #1d1e22;
+  color: #fff;
+}
+
+.explore__grid {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+.explore__card {
+  background: #37393f;
+  padding: 20px;
+  margin: 10px;
+  border-radius: 8px;
+  text-align: center;
+  transition: background 0.3s ease;
+}
+
+.explore__card:hover {
+  background: #2198ab;
+  transform: scale(1.2);
+}
+
+/* Class Styles */
+.class__container {
+  background: #1d1e22;
+  color: #fff;
+}
+
+.class__image {
+  position: relative;
+  overflow: hidden;
+}
+
+.class__image .bg__blur {
+  background: #37393f;
+}
+
+
+.class__img-2 {
+  width: 100%;
+  max-height: 550px;
+  object-fit: cover;
+  border-radius: 8px;
+  transition: transform 0.3s ease;
+}
+
+.class__img-2:hover {
+  transform: scale(1.1);
+}
+
+
+
+.join__container {
+  background: #282c34;
+  color: #61dafb;
+  padding: 40px;
+}
+
+
+.join__image {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+.join__card {
+  background: #37393f;
+  padding: 20px;
+  margin: 10px;
+  border-radius: 8px;
+  text-align: center;
+  transition: background 0.3s ease;
+}
+
+.join__card:hover {
+  background: #221d22;
+  transform: scale(1.1);
+}
+
+/* Price Styles */
+.price__container {
+  background:url("./assets/price.jpg");
+  color: #eae9e4;
+  padding: 40px;
+}
+
+.price__grid {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 40px;
+}
+
+.price__card {
+  background: #37393f;
+  padding: 20px;
+  margin: 10px;
+  border-radius: 8px;
+  text-align: center;
+  transition: background 0.3s ease;
+}
+
+.price__card:hover {
+  background: #f3450b;
+  transform: scale(1.2);
+}
+
+.price__btn {
+  background: #61dafb;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+
+.price__btn:hover {
+  background: #21c86c;
+  transform: scale(1.1);
+}
+
+
+.header__content button.btn {
+ 
+  padding: 15px 30px;
+  font-size: 18px;
+  transition: transform 0.3s ease, 0.3s ease;
+}
+
+.header__content button.btn:hover {
+  /* Added scaling on hover */
+  transform: scale(1.1);
+  background: #10314e;
+}
+
+
+
+.class__content button.btn {
+ 
+  padding: 15px 30px;
+  font-size: 18px;
+  transition: transform 0.3s ease,  0.3s ease;
+}
+
+.class__content button.btn:hover {
+ 
+  transform: scale(1.1);
+  background: #10314e;
+}
+
+

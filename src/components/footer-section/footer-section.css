@@ -1,0 +1,50 @@
+/* Footer styling */
+footer {
+  background: url("./assets/footerr.jpg");
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  color: #291111;
+  padding: 20px;
+  text-align: center;
+  font-family: 'BrandonTextWeb-Regular', 'Helvetica Neue', Helvetica, Roboto, Arial, sans-serif;
+  font-weight: bold;
+ 
+}
+
+
+.contact-info p {
+  margin: 5px 0;
+}
+
+
+.social-links a,
+.quick-links a {
+  margin: 0 10px;
+  color: rgb(51, 12, 12);
+  text-decoration: none;
+  transition: color 0.3s;
+}
+
+
+.social-links a:hover,
+.quick-links a:hover {
+  color: rgb(35, 33, 129);
+  text-decoration: underline;
+}
+
+
+.admin-button a {
+  color: rgb(42, 7, 7);
+  text-decoration: none;
+  transition: transform 0.3s;
+  display: inline-block; 
+}
+
+
+.admin-button a:hover {
+  color:rgb(83, 106, 210);
+  transform: scale(1.1); 
+}

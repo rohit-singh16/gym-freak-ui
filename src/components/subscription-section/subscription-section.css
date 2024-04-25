@@ -1,0 +1,59 @@
+
+
+
+.subscription {
+  background: url("./assets/sub3.jpg");
+  background-attachment: fixed;
+  width: 100%;
+  height: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  padding: 50px ;
+  font-family:  BrandonTextWeb-Regular,Helvetica Neue, Helvetica, Roboto, Arial, sans-serif;
+  font-weight: 1;
+  color: goldenrod
+  
+}
+
+.subscription-card {
+  padding: 20px;
+  border: 1px solid #6ACFC7;
+  border-radius: 5px;
+  margin: 10px;
+  font-family:  BrandonTextWeb-Regular,Helvetica Neue, Helvetica, Roboto, Arial, sans-serif;
+  font-weight: 1000;
+  transition: transform 0.3s;
+}
+
+.subscription-card:hover {
+  transform: scale(1.05);
+  background-color: slategrey; 
+  color: lavender;
+  box-shadow: 20px 10px 25px #6ACFC7;
+}
+
+.sub-button {
+  padding: 15px 30px;
+  font-size: 1.2em;
+  background-color: #415a72;
+  color: antiquewhite;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s, transform 0.3s;
+  box-shadow: 15px 10px 0px rgb(63, 87, 56);
+}
+
+.sub-button:hover {
+  background-color: #e79119; 
+  transform: scale(1.1);
+  box-shadow: 15px 10px 0px rgb(63, 87, 56);
+  animation: pulse 0.5s infinite;
+}
+@keyframes pulse {
+  0% { transform: scale(1); }
+  50% { transform: scale(1.2); }
+  100% { transform: scale(1); }
+}
+

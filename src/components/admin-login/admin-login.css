@@ -1,0 +1,83 @@
+.admin-login {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: url("../../assets/people.jpg");
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  margin-top: -90px;
+}
+
+.login-box {
+  display: flex;
+  flex-direction: column; /* Align items vertically */
+  align-items: center; /* Center items horizontally */
+  justify-content: center; /* Center items vertically */
+  border-radius: 8px;
+  padding: 40px;
+  margin-right: 440px;
+
+}
+
+.login-box h2 {
+  margin-bottom: 20px; /* Adjust margin to create space between h2 and form */
+  color: #ffffff;
+  text-align: center;
+  margin-right: 0px;
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+.form-group label {
+  display: block;
+  margin-bottom: 5px;
+  color: #fffafa;
+}
+
+.form-group input {
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #dddddd;
+  border-radius: 5px;
+}
+
+.button-container {
+  width: 100%; 
+}
+
+button[type="submit"] {
+  width: 100%; 
+  padding: 10px 20px;
+  font-size: 16px;
+  border: none;
+  border-radius: 5px;
+  background-color: #007bff;
+  color: #ffffff;
+  cursor: pointer;
+  transition: background 0.3s;
+  margin-left: 10px;
+}
+
+button[type="submit"]:hover {
+  background: #3ae13a;
+}
+
+p {
+  margin-top: 20px;
+  font-size: 14px;
+  color: #666666;
+}
+
+a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}

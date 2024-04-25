@@ -1,0 +1,16 @@
+
+.landing-page {
+  font-family: BrandonTextWeb-Regular,Helvetica Neue, Helvetica, Roboto, Arial, sans-serif;
+  background-color:#a39274,#dfd8c8, #252523
+}
+
+*{
+  overflow-x: hidden
+}
+@import '../hero-section/hero-section.css';
+@import '../about-section/about-section.css';
+@import '../header-section/header-section.css';
+@import '../benefits-section/benefits-section.css';
+@import '../join-us-section/join-us-section.css';
+@import '../subscription-section/subscription-section.css';
+@import '../footer-section/footer-section.css';

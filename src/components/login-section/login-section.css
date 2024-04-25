@@ -1,0 +1,98 @@
+.login-page {
+  display: flex;
+  flex-direction:column;
+  align-items: center;
+  height: 100vh;
+  background: url("../../assets/new\ log2.jpg");
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  margin-top: -95px;
+}
+
+.login-content {
+  margin-top: 100px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 100%;
+  max-width: 900px;
+}
+
+.image-container {
+  flex: 1;
+  margin-right: 20px;
+
+}
+
+.image-container img {
+  width: 100%;
+  height: auto;
+}
+
+.login-box {
+  
+  border-radius: 8px;
+  padding: 40px;
+  
+  flex: 1;
+  max-width: 400px;
+  margin-top: 30px;
+  margin-left: 540px;
+  
+}
+
+
+.login-box h2 {
+  margin-bottom: 20px;
+  margin-left: 50px;
+  color: #ffffff;
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+.form-group label {
+  display: block;
+  margin-bottom: 5px;
+  color: #fffafa;
+}
+
+.form-group input {
+  width: 200px;
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #dddddd;
+  border-radius: 5px;
+}
+
+button[type="submit"] {
+  background: #007bff;
+  color: #ffffff;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+button[type="submit"]:hover {
+  background: #3ae13a;
+}
+
+p {
+  margin-top: 20px;
+  font-size: 14px;
+  color: #efe8e8;
+}
+
+a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}

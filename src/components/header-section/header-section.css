@@ -1,0 +1,57 @@
+/* Header Section styles go here */
+header {
+  display: flex;
+  font-family: BrandonTextWeb-Regular, Helvetica Neue, Helvetica, Roboto, Arial, sans-serif;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  background-color: #000000b2;
+  color: yellow;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  font-weight: bold;
+  max-width: 3000px;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+}
+
+nav ul li {
+  margin-right: 20px;
+  cursor: pointer;
+  transition: color 0.3s;
+}
+
+nav ul li:hover {
+  color: #e162c6;
+  text-decoration: underline;
+  transform: rotate(-25deg);
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  font-size: 19px;
+  width: 100%;
+
+}
+.bicep{
+  margin: 0.5rem;
+  height: 28px;
+  width: 35px;
+  margin-top: 8px;
+}
+
+.logo-image {
+  width: 80px; /* Adjust the width as needed */
+  height: auto;
+  margin-right: 10px; /* Add spacing between the logo image and text */
+}
+
+a {
+  text-decoration: none;
+  color: yellow;
+}
